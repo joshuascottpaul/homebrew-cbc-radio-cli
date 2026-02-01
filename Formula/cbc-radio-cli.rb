@@ -10,6 +10,7 @@ class CbcRadioCli < Formula
 
   def install
     bin.install "cbc_ideas_audio_dl.py" => "cbc-radio-cli"
+    (share/"cbc-radio-cli").install "requirements-web.txt"
   end
 
   test do
