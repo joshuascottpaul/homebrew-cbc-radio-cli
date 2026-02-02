@@ -12,6 +12,7 @@ class CbcRadioCli < Formula
     bin.install "cbc_ideas_audio_dl.py" => "cbc-radio-cli"
     bin.install "cbc_radio_web.py"
     (share/"cbc-radio-cli").install "requirements-web.txt"
+    (share/"cbc-radio-cli"/"templates").install Dir["web/templates/*"]
   end
 
   test do
