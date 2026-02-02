@@ -1,8 +1,8 @@
 class CbcRadioCli < Formula
   desc "Download CBC audio from story or section URLs via yt-dlp"
   homepage "https://github.com/joshuascottpaul/cbc-radio-cli"
-  url "https://github.com/joshuascottpaul/cbc-radio-cli/archive/refs/tags/v0.1.15.tar.gz"
-  sha256 "60ee4763fa642dc66d90e90624662cdad5916154fcfec56fd30d792c8c11a5f7"
+  url "https://github.com/joshuascottpaul/cbc-radio-cli/archive/refs/tags/v0.1.16.tar.gz"
+  sha256 "f6a1cdffdbc3837926ee2946f34e144255f9066f981bcc71cadb0f40a1e14c96"
   license "Apache-2.0"
 
   depends_on "python@3.12"
