@@ -127,8 +127,9 @@ class CbcRadioCli < Formula
     (bin/"cbc-radio-cli").write_env_script libexec/"cbc_ideas_audio_dl.py", env
     (bin/"cbc_radio_web.py").write_env_script libexec/"cbc_radio_web.py", env
 
-    (share/"cbc-radio-cli").install "requirements-web.txt"
+    (share/"cbc-radio-cli").install "requirements-web.txt", "requirements-brew.txt"
     (share/"cbc-radio-cli"/"templates").install Dir["web/templates/*"]
+    (share/"cbc-radio-cli"/"static").install Dir["web/static/*"]
   end
 
   test do
