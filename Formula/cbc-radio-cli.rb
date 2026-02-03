@@ -7,6 +7,7 @@ class CbcRadioCli < Formula
   license "Apache-2.0"
 
   depends_on "python@3.12"
+  depends_on "rust" => :build
   depends_on "yt-dlp"
   # openai-whisper is optional; install separately if you want transcription.
 
